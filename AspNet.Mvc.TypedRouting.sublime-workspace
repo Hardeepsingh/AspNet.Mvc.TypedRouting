@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"log",
+				"loginhookscript"
+			],
+			[
+				"com",
+				"command"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"argume",
+				"argumentList"
+			],
+			[
+				"new",
+				"newTabIfMinimized"
+			],
+			[
+				"window",
+				"windowStyle"
+			],
+			[
+				"windo",
+				"windowStyle"
+			],
+			[
+				"docke",
+				"dockerme"
+			],
+			[
+				"mig",
+				"migrate"
+			],
+			[
+				"s3",
+				"s3backupurlroot"
+			],
+			[
+				"age_",
+				"age_days"
+			],
+			[
+				"have",
+				"haveKeptOldestHourly"
+			],
+			[
+				"year",
+				"yearBackupCount"
+			],
+			[
+				"month",
+				"monthBackupCount"
+			],
+			[
+				"might",
+				"mightBecome"
+			],
+			[
+				"in",
+				"install"
+			],
+			[
+				"ap",
+				"apt-get"
+			],
+			[
+				"Run",
+				"RunJumpMachine"
+			],
+			[
+				"migrate",
+				"migrate4mac"
+			],
+			[
+				"migr",
+				"migrate4mac"
+			],
+			[
+				"migat",
+				"migrate4mac"
+			],
+			[
+				"lb",
+				"lbOpsDir"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 209.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Local Dependency"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 712.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/samples/TypedRoutingWebSite/project.lock.json",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/samples/TypedRoutingWebSite/project.json",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/samples/TypedRoutingWebSite/package.json",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/samples/TypedRoutingWebSite/TypedRoutingWebSite.xproj",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/samples/PerformanceTest/PerformanceTest.csproj",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.sln",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/backup/samples/PerformanceTest/PerformanceTest.csproj",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/backup/src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.csproj",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.csproj",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/README.md",
+		"/Users/chris/Source/Repos/AspNet.Mvc.TypedRouting/.git/config",
+		"/Volumes/NO NAME/Business Technical.txt",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/bitbucket-pipelines.yml",
+		"/Users/chris/Source/Repos/LegalBricks/webapp.reactclient/src/actions/mattersById.js",
+		"/Users/chris/Applications/restart-synergy",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-windows-bootstrap.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-windows-psremote-setup.ps1",
+		"/Users/chris/Desktop/git and lisp.txt",
+		"/Users/chris/OneDrive/DevMachine/Software.txt",
+		"/Users/chris/OneDrive/DevMachine/Software-ChrisBook.txt",
+		"/Users/chris/OneDrive/Email attachments/cloudformationS3 website.yaml",
+		"/Users/chris/OneDrive/My Notes/Sermons and Studies/RS Religion 2.txt",
+		"/Users/chris/Source/Repos/ComponentAsService/.git/config",
+		"/Volumes/NO NAME/May personal.txt",
+		"/Volumes/NO NAME/LB 5201-7114-4487/LB.txt",
+		"/Volumes/NO NAME/LB 5201-7114-4487/LB EC2 and VPC.yml",
+		"/Volumes/NO NAME/LB.txt",
+		"/Users/chris/.legalbricks/AWS-cfc/SSL Thumbprints.txt",
+		"/Users/chris/.bash_profile",
+		"/Users/chris/Source/Repos/LegalBricks/ops/cloudformation-Route53-VPC-EC2-S3-and-DB-2018.6-Moogi-OriginalNames.json",
+		"/Users/chris/Source/Repos/LegalBricks/ops/cloudformation-Moogi-Everything-2018.6.json",
+		"/Users/chris/Source/Repos/mBot PlatformIO/pio_vscode/.pioenvs/uno/firmware.elf",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/UserDict.py",
+		"/Users/chris/.platformio/penv/lib/python2.7/UserDict.pyc",
+		"/Users/chris/Source/Repos/mBot PlatformIO/.gitignore",
+		"/Users/chris/Source/Scratch/LearnCPP/.gitignore",
+		"/Users/chris/Documents/PlatformIO/Projects/Uno1/lib/readme.txt",
+		"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/boards.txt",
+		"/Users/chris/Source/Scratch/MBotSketch1/CMakeLists.txt",
+		"/Users/chris/Source/Scratch/vscode-arduino/README.md",
+		"/Users/chris/Downloads/Makeblock-Libraries-master/examples/Me_Buzzer/MbotBuzzerTest/MbotBuzzerTest.ino",
+		"/Users/chris/Downloads/Makeblock-Libraries-master/examples/Me_Bluetooth/SlaveBluetoothBySoftSerialTest/SlaveBluetoothBySoftSerialTest.ino",
+		"/Users/chris/Downloads/Makeblock-Libraries-master/examples/Me_FlameSensor/MeFlameSensorTest/MeFlameSensorTest.ino",
+		"/Users/chris/Source/Repos/mBot/mBot-default-base/mBot-default-base.ino",
+		"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/programmers.txt",
+		"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/platform.txt",
+		"/Users/chris/Source/Scratch/mBotSketch1/mBotSketch1.ino",
+		"/Users/chris/Source/Scratch/mBotSketch1/CMakeLists.txt",
+		"/Users/chris/Source/Scratch/ArduinoSketch1/ArduinoSketch1.ino",
+		"/Users/chris/Source/Repos/mBot/mBot-default-program/mBot-default-program.ino",
+		"/Users/chris/Source/Scratch/nwjs1/index.html",
+		"/Users/chris/Downloads/nwjs-sdk-v0.32.4-osx-x64/nwjs.app/Contents/Resources/en_GB.lproj/InfoPlist.strings",
+		"/Users/chris/OneDrive/Other Work/google ad fraud notes.txt",
+		"/Users/chris/.config/Chris/secrets.ps1",
+		"/force-integrated-graphics.sh",
+		"/Users/chris/Downloads/pt003/readme.txt",
+		"/Users/chris/Applications/tomp3",
+		"/Volumes/FROM OSX/Business.txt",
+		"/Volumes/FROM OSX/Business Technical.txt",
+		"/Users/chris/OneDrive/My Notes/BStudy Notes/Genesis 12.txt",
+		"/Users/chris/Source/Repos/TM/ivas/README.md",
+		"/Users/chris/.config/karabiner/karabiner.json",
+		"/Users/chris/.config/karabiner/karabiner chris 2018.3.json",
+		"/Volumes/C/Users/chris/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup/AutoHotkey 2018.3 for Mac Keyboard and 3440 Screen.ahk",
+		"/Users/chris/OneDrive/DevMachine/Settings/AutoHotkey for PC Keyboard 1920 1080 x2 Landscape plus Portrait.ahk",
+		"/Users/chris/.gitignore",
+		"/private/var/folders/qc/pxs6v8qs12zdjv3xs3phq1480000gn/T/fz3temp-2/Web.config",
+		"/private/var/folders/qc/pxs6v8qs12zdjv3xs3phq1480000gn/T/fz3temp-2/Web 2.config",
+		"/Users/chris/Source/Third/DSU/debtsupportuk.com/netversion.aspx.cs",
+		"/sockets.log",
+		"/Users/chris/Desktop/This was uploaded.txt",
+		"/Users/chris/.yarnrc",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/scripts/Create/0000-assert-database-lb.sql",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/scripts/lb-migrate-jobs.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/scripts/EnsureSchema-lb-tasks.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/run.ps1",
+		"/Users/chris/Desktop/letter.txt",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-create.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-build-all.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-scripting-common.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-build-1by1.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-destroy-and-create.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/run-all-the-things.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/clientmanagement.webapi/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/iam.webapi/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.joblinker.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.MatterInstructedBotInstructor.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.matterviewprojector.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.searchprojector.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.webapi.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/run-matters.wordaddinprojector.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/run-tasks.jobviewprojector.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/run-tasks.trafficlightevaluationprojector.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/run-tasks.webapi.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/webapp/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/quotes/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/doc-templates/run.ps1",
+		"/Users/chris/.legalbricks/lbenvironment.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/eventstore/FromDockerFile/BackupContainer.Dockerfile",
+		"/Users/chris/.config/powershell/Microsoft.PowerShell_profile.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/quotes/README.md",
+		"/Users/chris/Source/Repos/LegalBricks/quotes/src/WebApi/Controllers/FeeScalesController.cs",
+		"/Users/chris/Source/Repos/LegalBricks/quotes/src/WebApi/Persistence/QuotesWriter.cs",
+		"/Users/chris/Source/Repos/LegalBricks/eventstore/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/webapp/src/WebClients.sln",
+		"/Users/chris/Source/Repos/LegalBricks/matters.webapi/build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/clientmanagement.webapi/build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-update-docker-ecr-repo.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-pullandresetall.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-pullall.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-kill-all-processes.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-gitall.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-environment-for-build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-ensure-PostgresScriptRunnerAndAppPasswordsInPgConf.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-ensure-passwordless-login-certificate.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-drop-database.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-destroy.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-deploy-to-vm.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-buildstatus.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/ops/lb-build-and-run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/run-tasks.trafficlightevaluator.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/postman-tests.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/iam.webapi/build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/webapp/build.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/webapp.reactclient/run.ps1",
+		"/Users/chris/Source/Repos/LegalBricks/tasks.webapi/src/LegalBricks.Tasks.JobViewProjector/Projection.cs",
+		"/Users/chris/Source/Repos/LegalBricks/eventstore/FromDockerFile/backup-pruning"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 163.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "AspNet.Mvc.TypedRouting.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lb-create",
+				"ops/lb-create.ps1"
+			],
+			[
+				"lb-build",
+				"ops/lb-build-all.ps1"
+			],
+			[
+				"lb-scrip",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"lb-sct",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"lb-script",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"lb-sc",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"lb-scr",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"build-1",
+				"ops/lb-build-1by1.ps1"
+			],
+			[
+				"lb-crea",
+				"ops/lb-create.ps1"
+			],
+			[
+				"lb-dest",
+				"ops/lb-destroy-and-create.ps1"
+			],
+			[
+				"run-all",
+				"ops/run-all-the-things.ps1"
+			],
+			[
+				"run-",
+				"matters.webapi/run-matters.matterviewprojector.ps1"
+			],
+			[
+				"run.ps",
+				"webapp.reactclient/run.ps1"
+			],
+			[
+				"run.ps1",
+				"webapp/run.ps1"
+			],
+			[
+				"run.",
+				"eventstore/run.ps1"
+			],
+			[
+				"lb-enc",
+				"ops/lb-environment-for-ops-and-build-common.ps1"
+			],
+			[
+				"backup",
+				"eventstore/FromDockerFile/backup-eventstore"
+			],
+			[
+				"lbenv",
+				".legalbricks/lbenvironment.ps1"
+			],
+			[
+				"ensure",
+				"matters.webapi/scripts/EnsureSchema-lb-matters.ps1"
+			],
+			[
+				"new.",
+				"tasks.webapi/scripts/new.ps1"
+			],
+			[
+				"new",
+				"clientmanagement.webapi/scripts/new.ps1"
+			],
+			[
+				"new.ps1",
+				"matters.webapi/scripts/new.ps1"
+			],
+			[
+				"lb-cr",
+				"ops/lb-create-database.ps1"
+			],
+			[
+				"lb-create-d",
+				"ops/lb-create-database.ps1"
+			],
+			[
+				"lb-scriptin",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"lb-envi",
+				"ops/lb-environment-for-ops-and-build-common.ps1"
+			],
+			[
+				"ensuresche",
+				"tasks.webapi/scripts/EnsureSchema-lb-tasks.ps1"
+			],
+			[
+				"lb-res",
+				"ops/lb-restore-from-backup.ps1"
+			],
+			[
+				"dockerfile",
+				"eventstore/FromDockerFile/BackupContainer.Dockerfile"
+			],
+			[
+				"bac.dockerfile",
+				"eventstore/FromDockerFile/BackupContainer.Dockerfile"
+			],
+			[
+				"-ops",
+				"ops/lb-environment-for-ops-and-build-common.ps1"
+			],
+			[
+				"lb-environment-for-ops-and-build-common.ps1",
+				"ops/lb-environment-for-ops-and-build-common.ps1"
+			],
+			[
+				"common",
+				"ops/lb-scripting-common.ps1"
+			],
+			[
+				"",
+				".legalbricks/lb-buildsecrets-common.ps1"
+			],
+			[
+				"lb-env",
+				"ops/lb-environment-for-ops-and-build-common.ps1"
+			],
+			[
+				"buildsec",
+				".legalbricks/lb-buildsecrets-common.ps1"
+			],
+			[
+				"buildse",
+				".legalbricks/lb-buildsecrets-common.ps1"
+			],
+			[
+				"ev/bui",
+				"eventstore/build.ps1"
+			],
+			[
+				"eve/build",
+				"eventstore/build.ps1"
+			],
+			[
+				"eve/run",
+				"eventstore/run.ps1"
+			],
+			[
+				"docker",
+				"eventstore/FromDockerFile/BackupRestoreS3Jumpmachine.Dockerfile"
+			],
+			[
+				"lb-list",
+				"ops/lb-list-available-backups.ps1"
+			],
+			[
+				"build",
+				"eventstore/build.ps1"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 339.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

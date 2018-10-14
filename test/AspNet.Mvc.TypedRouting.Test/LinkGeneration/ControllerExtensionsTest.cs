@@ -18,7 +18,7 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtActionSameController", result.ActionName);
             Assert.Empty(result.RouteValues);
             Assert.Equal("test", result.Value);
@@ -35,9 +35,9 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtActionSameControllerRouteValues", result.ActionName);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues);
             Assert.Equal(1, result.RouteValues["id"]);
             Assert.Equal("test", result.Value);
         }
@@ -72,7 +72,7 @@
             Assert.NotNull(result);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues);
             Assert.Equal(1, result.RouteValues["id"]);
             Assert.Equal("test", result.Value);
         }
@@ -163,9 +163,9 @@
             // Assert
             Assert.NotNull(result);
             Assert.Empty(result.RouteValues);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtRouteSameController", result.ActionName);
-            Assert.Equal(false, result.Permanent);
+            Assert.False(result.Permanent);
         }
 
         [Fact]
@@ -179,11 +179,11 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(1, result.RouteValues.Count);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Single( result.RouteValues);
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtRouteSameControllerRouteValues", result.ActionName);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -200,7 +200,7 @@
             Assert.Null(result.RouteValues);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -214,11 +214,11 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues );
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -233,9 +233,9 @@
             // Assert
             Assert.NotNull(result);
             Assert.Empty(result.RouteValues);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtRouteSameController", result.ActionName);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -249,11 +249,11 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(1, result.RouteValues.Count);
-            Assert.Equal(null, result.ControllerName);
+            Assert.Single( result.RouteValues );
+            Assert.Null(result.ControllerName);
             Assert.Equal("CreatedAtRouteSameControllerRouteValues", result.ActionName);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -270,7 +270,7 @@
             Assert.Null(result.RouteValues);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -284,11 +284,11 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues );
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -306,7 +306,7 @@
             Assert.Equal(2, result.RouteValues.Count);
             Assert.Equal("MyTest", result.RouteValues["controller"]);
             Assert.Equal("CreatedAtRouteSameController", result.RouteValues["action"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -325,7 +325,7 @@
             Assert.Equal("MyTest", result.RouteValues["controller"]);
             Assert.Equal("CreatedAtRouteSameControllerRouteValues", result.RouteValues["action"]);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -343,7 +343,7 @@
             Assert.Equal(2, result.RouteValues.Count);
             Assert.Equal("Other", result.RouteValues["controller"]);
             Assert.Equal("Action", result.RouteValues["action"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -362,7 +362,7 @@
             Assert.Equal("Other", result.RouteValues["controller"]);
             Assert.Equal("Action", result.RouteValues["action"]);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(false, result.Permanent);
+            Assert.False( result.Permanent);
         }
 
         [Fact]
@@ -380,7 +380,7 @@
             Assert.Equal(2, result.RouteValues.Count);
             Assert.Equal("MyTest", result.RouteValues["controller"]);
             Assert.Equal("CreatedAtRouteSameController", result.RouteValues["action"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -399,7 +399,7 @@
             Assert.Equal("MyTest", result.RouteValues["controller"]);
             Assert.Equal("CreatedAtRouteSameControllerRouteValues", result.RouteValues["action"]);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -417,7 +417,7 @@
             Assert.Equal(2, result.RouteValues.Count);
             Assert.Equal("Other", result.RouteValues["controller"]);
             Assert.Equal("Action", result.RouteValues["action"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
 
         [Fact]
@@ -436,7 +436,7 @@
             Assert.Equal("Other", result.RouteValues["controller"]);
             Assert.Equal("Action", result.RouteValues["action"]);
             Assert.Equal(1, result.RouteValues["id"]);
-            Assert.Equal(true, result.Permanent);
+            Assert.True(result.Permanent);
         }
     }
 

@@ -37,7 +37,7 @@
             Assert.Equal(1, content.RouteValues["id"]);
             Assert.Equal("test", content.RouteValues["text"]);
             Assert.Equal("value", content.RouteValues["other"]);
-            Assert.Equal(1, content.HtmlAttributes.Count);
+            Assert.Single( content.HtmlAttributes);
             Assert.Equal("css-class", content.HtmlAttributes["class"]);
         }
 
@@ -62,7 +62,7 @@
             Assert.Equal(1, content.RouteValues["id"]);
             Assert.Equal("test", content.RouteValues["text"]);
             Assert.Equal("value", content.RouteValues["other"]);
-            Assert.Equal(1, content.HtmlAttributes.Count);
+            Assert.Single( content.HtmlAttributes);
             Assert.Equal("css-class", content.HtmlAttributes["class"]);
         }
 
@@ -83,7 +83,7 @@
             Assert.Equal(1, content.RouteValues["id"]);
             Assert.Equal("test", content.RouteValues["text"]);
             Assert.Equal("value", content.RouteValues["other"]);
-            Assert.Equal(1, content.HtmlAttributes.Count);
+            Assert.Single( content.HtmlAttributes);
             Assert.Equal("css-class", content.HtmlAttributes["class"]);
         }
 
@@ -105,7 +105,7 @@
             Assert.Equal(1, content.RouteValues["id"]);
             Assert.Equal("test", content.RouteValues["text"]);
             Assert.Equal("value", content.RouteValues["other"]);
-            Assert.Equal(1, content.HtmlAttributes.Count);
+            Assert.Single( content.HtmlAttributes);
             Assert.Equal("css-class", content.HtmlAttributes["class"]);
         }
 

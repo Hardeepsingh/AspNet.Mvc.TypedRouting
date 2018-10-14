@@ -4516,7 +4516,7 @@
     "AspNet.Mvc.TypedRouting/1.3.0": {
       "type": "project",
       "path": "../../src/AspNet.Mvc.TypedRouting/project.json",
-      "msbuildProject": "../../src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.xproj"
+      "msbuildProject": "../../src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.csproj"
     }
   },
   "projectFileDependencyGroups": {

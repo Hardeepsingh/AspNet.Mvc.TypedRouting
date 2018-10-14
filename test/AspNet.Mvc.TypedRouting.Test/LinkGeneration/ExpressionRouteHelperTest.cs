@@ -93,7 +93,7 @@
             // Assert
             Assert.Equal("Poco", result.Controller);
             Assert.Equal("Action", result.Action);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues );
             Assert.True(result.RouteValues.ContainsKey("id"));
             Assert.Equal(1, result.RouteValues["id"]);
         }
@@ -107,7 +107,7 @@
             // Assert
             Assert.Equal("Poco", result.Controller);
             Assert.Equal("ActionAsync", result.Action);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues );
             Assert.True(result.RouteValues.ContainsKey("id"));
             Assert.Equal(1, result.RouteValues["id"]);
         }
@@ -155,7 +155,7 @@
             // Assert
             Assert.Equal("ChangedController", result.Controller);
             Assert.Equal("ChangedAction", result.Action);
-            Assert.Equal(1, result.RouteValues.Count);
+            Assert.Single( result.RouteValues );
             Assert.True(result.RouteValues.ContainsKey("ChangedParameter"));
             Assert.Equal(1, result.RouteValues["ChangedParameter"]);
         }

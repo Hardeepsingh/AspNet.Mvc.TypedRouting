@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d140e74d-570d-48c5-8c72-ce2651a286a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AspNet.Mvc.TypedRouting/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AspNet.Mvc.TypedRouting/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AspNet.Mvc.TypedRouting/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AspNet.Mvc.TypedRouting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.AspNet.Mvc.TypedRouting/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AspNet.Mvc.TypedRouting.sln" beforeDir="false" afterPath="$PROJECT_DIR$/AspNet.Mvc.TypedRouting.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/PerformanceTest/PerformanceTest.xproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/PerformanceTest/project.lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/samples/PerformanceTest/project.lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/TypedRoutingWebSite.xproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/samples/TypedRoutingWebSite/project.lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.xproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AspNet.Mvc.TypedRouting/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AspNet.Mvc.TypedRouting/project.lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/AspNet.Mvc.TypedRouting.Test.xproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ControllerExtensionsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ControllerExtensionsTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ExpressionRouteHelperTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ExpressionRouteHelperTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/HtmlHelperExtensionsTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/HtmlHelperExtensionsTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/project.lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TypedRoutingWebSite.Test/TypedRoutingWebSite.Test.xproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TypedRoutingWebSite.Test/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TypedRoutingWebSite.Test/project.lock.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="530794371">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bowerrc" value="1" />
+          <entry key="config" value="1" />
+          <entry key="cs" value="5" />
+          <entry key="cshtml" value="4" />
+          <entry key="csproj" value="6" />
+          <entry key="js" value="1" />
+          <entry key="json" value="2" />
+          <entry key="targets" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="5" />
+          <entry key="Config" value="1" />
+          <entry key="Csproj" value="6" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="1" />
+          <entry key="MsBuild targets file" value="1" />
+          <entry key="Razor" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="81" />
+          <entry key="csproj" value="17" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="81" />
+          <entry key="Csproj" value="17" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Controllers/AreaController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1539527039000" expanded="true" signature="41:337" ph="{...}" />
+                <marker date="1539527039000" expanded="true" signature="145:335" ph="{...}" />
+                <marker date="1539527039000" expanded="true" signature="188:235" ph="{...}" />
+                <marker date="1539527039000" expanded="true" signature="275:329" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="52" selection-start-column="52" selection-end-column="52" />
+              <folding>
+                <marker date="1539535136000" expanded="true" signature="75:123" ph="@..." />
+                <marker date="1539535136000" expanded="true" signature="154:868" ph="&lt;form.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="364:667" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="474:656" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="672:860" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="705:849" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="870:959" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/ChangePassword.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1539527039000" expanded="true" signature="31:78" ph="@..." />
+                <marker date="1539527039000" expanded="true" signature="110:1446" ph="&lt;form.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="321:624" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="431:613" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="629:932" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="739:921" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="937:1252" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="1051:1241" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="1257:1438" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="1290:1427" ph="&lt;div.../&gt;" />
+                <marker date="1539527039000" expanded="true" signature="1448:1537" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/web.config">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <folding>
+                <marker date="1539535136000" expanded="true" signature="87:127" ph="@..." />
+                <marker date="1539535136000" expanded="true" signature="219:1201" ph="&lt;form.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="484:724" ph="&lt;p.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="729:1014" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="833:1003" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="1019:1193" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="1052:1182" ph="&lt;div.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="1203:1292" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <marker date="1539535136000" expanded="true" signature="76:129" ph="@..." />
+                <marker date="1539535136000" expanded="true" signature="159:309" ph="&lt;p.../&gt;" />
+                <marker date="1539535136000" expanded="true" signature="311:994" ph="@*...*@" />
+                <marker date="1539535136000" expanded="true" signature="996:1085" ph="@{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Assert.Equal(null,</find>
+      <find>Assert.Equal(1,</find>
+      <find>Assert.Equal(false,</find>
+      <find>Assert.Single( result.RouteValues[&quot;id&quot;])</find>
+      <find>Assert.Single( result.RouteValues.Count)</find>
+      <find>Assert.Equal(true,</find>
+      <find>Assert.Single( content.RouteValues[&quot;id&quot;]);</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Assert.Null(</replace>
+      <replace>Assert.Single(</replace>
+      <replace>Assert.False(</replace>
+      <replace>Assert.Equal(1, result.RouteValues[&quot;id&quot;])</replace>
+      <replace>Assert.Single( result.RouteValues )</replace>
+      <replace>Assert.True(</replace>
+      <replace>Assert.Equal(1, content.RouteValues[&quot;id&quot;]);</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ControllerExtensionsTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Controllers/AreaController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/ChangePassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ExpressionRouteHelperTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/HtmlHelperExtensionsTest.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/samples/PerformanceTest/PerformanceTest.csproj" />
+        <option value="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/AspNet.Mvc.TypedRouting.Test.csproj" />
+        <option value="$PROJECT_DIR$/src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.csproj" />
+        <option value="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ControllerExtensionsTest.cs" />
+        <option value="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ExpressionRouteHelperTest.cs" />
+        <option value="$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/HtmlHelperExtensionsTest.cs" />
+        <option value="$PROJECT_DIR$/samples/TypedRoutingWebSite/Startup.cs" />
+        <option value="$PROJECT_DIR$/samples/TypedRoutingWebSite/TypedRoutingWebSite.csproj" />
+        <option value="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml" />
+        <option value="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml" />
+        <option value="$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/samples/TypedRoutingWebSite/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="23" />
+    <option name="width" value="1856" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AspNet.Mvc.TypedRouting" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AspNet.Mvc.TypedRouting" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="samples" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AspNet.Mvc.TypedRouting" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="src" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="AspNet.Mvc.TypedRouting" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.samples\TypedRoutingWebSite">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="samples\TypedRoutingWebSite" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/samples/TypedRoutingWebSite/bin/Debug/netcoreapp1.1/TypedRoutingWebSite.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/samples/TypedRoutingWebSite" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/samples/TypedRoutingWebSite/TypedRoutingWebSite.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v1.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue=".NET Project.samples\TypedRoutingWebSite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.samples\TypedRoutingWebSite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d140e74d-570d-48c5-8c72-ce2651a286a4" name="Default Changelist" comment="" />
+      <created>1539533941426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539533941426</updated>
+      <workItem from="1539533944454" duration="1189000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1189000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="23" width="1856" height="1177" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25332594" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" weight="0.48499063" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="REST Client" />
+      <window_info anchor="bottom" id="Terminal" weight="0.42964354" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.3292683" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/samples/PerformanceTest/PerformanceTest.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/AspNet.Mvc.TypedRouting.Test.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AspNet.Mvc.TypedRouting/AspNet.Mvc.TypedRouting.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="78" lean-forward="true" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ControllerExtensionsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="237" column="24" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="24" />
+          <folding>
+            <marker date="1539534778000" expanded="true" signature="53:21258" ph="{...}" />
+            <marker date="1539534778000" expanded="false" signature="66:145" ph="..." />
+            <marker date="1539534778000" expanded="true" signature="226:16134" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="318:807" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="909:1477" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="1565:2041" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="2144:2689" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="2775:3356" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="3457:4115" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="4202:4761" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="4863:5488" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="5576:6062" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="6165:6731" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="6820:7295" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="7399:7944" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8041:8535" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8647:9221" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="9319:9801" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="9914:10466" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="10553:11133" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11235:11892" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11980:12538" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12641:13265" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13361:13948" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="14059:14723" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="14820:15385" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="15497:16128" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16189:16491" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16230:16485" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16312:16474" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16383:16460" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16543:21110" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16610:16719" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16792:16928" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="16991:17094" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="17168:17287" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="17348:17464" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="17536:17679" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="17741:17852" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="17925:18052" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="18115:18216" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="18290:18418" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="18482:18578" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="18653:18765" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="18837:18947" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19030:19167" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19240:19345" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19429:19550" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19612:19721" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19794:19930" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="19993:20097" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="20171:20291" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="20362:20480" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="20562:20707" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="20779:20892" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="20975:21104" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="21161:21256" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="21205:21250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/ExpressionRouteHelperTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="159" column="27" selection-start-line="159" selection-start-column="27" selection-end-line="159" selection-end-column="27" />
+          <folding>
+            <marker date="1539534778000" expanded="true" signature="53:13738" ph="{...}" />
+            <marker date="1539534778000" expanded="false" signature="66:560" ph="..." />
+            <marker date="1539534778000" expanded="true" signature="642:10766" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="739:1142" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="1422:1743" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="2079:2667" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="2468:2657" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="2798:3610" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="3716:4174" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="4285:4753" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="4855:5452" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="5559:6315" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="6408:6932" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="7027:7473" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="7131:7293" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="7574:8010" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="7678:7824" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8108:8514" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8212:8357" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8634:9246" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="8660:9236" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="9443:10681" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="9469:10671" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="10718:10760" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="10797:10948" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="10922:10942" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="10995:11702" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11041:11061" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11117:11162" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11262:11307" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11359:11404" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11462:11507" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11597:11642" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11676:11696" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11735:11979" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11785:11830" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="11892:11973" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12035:12136" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12085:12130" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12238:12491" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12440:12485" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12564:12736" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12685:12730" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12830:12977" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="12890:12971" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13063:13190" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13115:13184" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13282:13518" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13340:13512" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13585:13736" ph="{...}" />
+            <marker date="1539534778000" expanded="true" signature="13710:13730" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AspNet.Mvc.TypedRouting.Test/LinkGeneration/HtmlHelperExtensionsTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="107" column="49" selection-start-line="107" selection-start-column="49" selection-end-line="107" selection-end-column="49" />
+          <folding>
+            <marker date="1539534839000" expanded="true" signature="53:11399" ph="{...}" />
+            <marker date="1539534839000" expanded="false" signature="66:431" ph="..." />
+            <marker date="1539534839000" expanded="true" signature="437:577" ph="/* Since the original MVC helper is living hell to test, these unit tests just test whether ... */" />
+            <marker date="1539534839000" expanded="true" signature="657:11239" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="743:1778" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="1858:2977" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="3057:3901" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="3986:4920" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="4972:7641" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="5152:5334" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="5231:5316" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="7695:9595" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="7893:8343" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="8508:8902" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="9557:9585" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="9640:11233" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="9868:10239" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="10434:10749" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="11283:11397" ph="{...}" />
+            <marker date="1539534839000" expanded="true" signature="11346:11391" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1539534835000" expanded="false" signature="6:393" ph="..." />
+            <marker date="1539534835000" expanded="true" signature="424:3936" ph="{...}" />
+            <marker date="1539534835000" expanded="false" signature="437:494" ph="..." />
+            <marker date="1539534835000" expanded="true" signature="520:3934" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="574:966" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="1100:2780" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="2899:3928" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="3060:3219" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="3236:3320" ph="{...}" />
+            <marker date="1539534835000" expanded="true" signature="3558:3916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.1.403/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.ObsoleteReferences.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/bower.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/TypedRoutingWebSite.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ExternalLoginConfirmation.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding>
+            <marker date="1539535136000" expanded="true" signature="87:127" ph="@..." />
+            <marker date="1539535136000" expanded="true" signature="219:1201" ph="&lt;form.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="484:724" ph="&lt;p.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="729:1014" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="833:1003" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="1019:1193" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="1052:1182" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="1203:1292" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Account/ForgotPassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <marker date="1539535136000" expanded="true" signature="76:129" ph="@..." />
+            <marker date="1539535136000" expanded="true" signature="159:309" ph="&lt;p.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="311:994" ph="@*...*@" />
+            <marker date="1539535136000" expanded="true" signature="996:1085" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Controllers/AreaController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539527039000" expanded="true" signature="41:337" ph="{...}" />
+            <marker date="1539527039000" expanded="true" signature="145:335" ph="{...}" />
+            <marker date="1539527039000" expanded="true" signature="188:235" ph="{...}" />
+            <marker date="1539527039000" expanded="true" signature="275:329" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/AddPhoneNumber.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="52" selection-start-column="52" selection-end-column="52" />
+          <folding>
+            <marker date="1539535136000" expanded="true" signature="75:123" ph="@..." />
+            <marker date="1539535136000" expanded="true" signature="154:868" ph="&lt;form.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="364:667" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="474:656" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="672:860" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="705:849" ph="&lt;div.../&gt;" />
+            <marker date="1539535136000" expanded="true" signature="870:959" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/Views/Manage/ChangePassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1539527039000" expanded="true" signature="31:78" ph="@..." />
+            <marker date="1539527039000" expanded="true" signature="110:1446" ph="&lt;form.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="321:624" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="431:613" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="629:932" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="739:921" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="937:1252" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="1051:1241" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="1257:1438" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="1290:1427" ph="&lt;div.../&gt;" />
+            <marker date="1539527039000" expanded="true" signature="1448:1537" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/TypedRoutingWebSite/web.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
