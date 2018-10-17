@@ -1,23 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D9D2AFBF-23D3-46CA-ADF1-5F111CAD0D18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet.Mvc.TypedRouting", "src\AspNet.Mvc.TypedRouting\AspNet.Mvc.TypedRouting.csproj", "{7B8B55EC-234C-46FD-8CF8-92A10F5BDF44}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Mvc.TypedRouting", "src\AspNet.Mvc.TypedRouting\AspNet.Mvc.TypedRouting.csproj", "{EEEB8D01-924D-483D-A8A8-3A5C896DA24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypedRoutingWebSite", "samples\TypedRoutingWebSite\TypedRoutingWebSite.csproj", "{17272047-07CB-428E-A5F6-4EC2176830E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2F197EC9-0599-4154-9FFD-34933B53BE42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet.Mvc.TypedRouting.Test", "test\AspNet.Mvc.TypedRouting.Test\AspNet.Mvc.TypedRouting.Test.csproj", "{F4C64C03-4BDA-415D-A220-977FE17FBF3F}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNet.Mvc.TypedRouting.Test", "test\AspNet.Mvc.TypedRouting.Test\AspNet.Mvc.TypedRouting.Test.csproj", "{9157D6DC-2FEE-4B26-91B0-4B22904039C0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{E939CC2E-1D2C-412F-97BB-44FA494F1E60}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PerformanceTest", "samples\PerformanceTest\PerformanceTest.csproj", "{67E0D398-07BF-4758-85B5-6171D31A6684}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TypedRoutingWebSite.Test", "test\TypedRoutingWebSite.Test\TypedRoutingWebSite.Test.csproj", "{0A4C9E81-565E-4028-B5EB-2448A95D278C}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TypedRoutingWebSite", "samples\TypedRoutingWebSite\TypedRoutingWebSite.csproj", "{3A8FD494-B962-4234-9377-E22FF13185F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypedRoutingWebSite.Test", "test\TypedRoutingWebSite.Test\TypedRoutingWebSite.Test.csproj", "{6088C406-B61B-4613-8FCC-2F6BF69D1904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,35 +17,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EEEB8D01-924D-483D-A8A8-3A5C896DA24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EEEB8D01-924D-483D-A8A8-3A5C896DA24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EEEB8D01-924D-483D-A8A8-3A5C896DA24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EEEB8D01-924D-483D-A8A8-3A5C896DA24B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9157D6DC-2FEE-4B26-91B0-4B22904039C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9157D6DC-2FEE-4B26-91B0-4B22904039C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9157D6DC-2FEE-4B26-91B0-4B22904039C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9157D6DC-2FEE-4B26-91B0-4B22904039C0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67E0D398-07BF-4758-85B5-6171D31A6684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67E0D398-07BF-4758-85B5-6171D31A6684}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67E0D398-07BF-4758-85B5-6171D31A6684}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67E0D398-07BF-4758-85B5-6171D31A6684}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A4C9E81-565E-4028-B5EB-2448A95D278C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A4C9E81-565E-4028-B5EB-2448A95D278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A4C9E81-565E-4028-B5EB-2448A95D278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A4C9E81-565E-4028-B5EB-2448A95D278C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A8FD494-B962-4234-9377-E22FF13185F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A8FD494-B962-4234-9377-E22FF13185F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A8FD494-B962-4234-9377-E22FF13185F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A8FD494-B962-4234-9377-E22FF13185F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8B55EC-234C-46FD-8CF8-92A10F5BDF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8B55EC-234C-46FD-8CF8-92A10F5BDF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8B55EC-234C-46FD-8CF8-92A10F5BDF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8B55EC-234C-46FD-8CF8-92A10F5BDF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17272047-07CB-428E-A5F6-4EC2176830E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17272047-07CB-428E-A5F6-4EC2176830E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17272047-07CB-428E-A5F6-4EC2176830E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17272047-07CB-428E-A5F6-4EC2176830E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C64C03-4BDA-415D-A220-977FE17FBF3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C64C03-4BDA-415D-A220-977FE17FBF3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C64C03-4BDA-415D-A220-977FE17FBF3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C64C03-4BDA-415D-A220-977FE17FBF3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6088C406-B61B-4613-8FCC-2F6BF69D1904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6088C406-B61B-4613-8FCC-2F6BF69D1904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6088C406-B61B-4613-8FCC-2F6BF69D1904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6088C406-B61B-4613-8FCC-2F6BF69D1904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{EEEB8D01-924D-483D-A8A8-3A5C896DA24B} = {D9D2AFBF-23D3-46CA-ADF1-5F111CAD0D18}
-		{9157D6DC-2FEE-4B26-91B0-4B22904039C0} = {2F197EC9-0599-4154-9FFD-34933B53BE42}
-		{67E0D398-07BF-4758-85B5-6171D31A6684} = {E939CC2E-1D2C-412F-97BB-44FA494F1E60}
-		{0A4C9E81-565E-4028-B5EB-2448A95D278C} = {2F197EC9-0599-4154-9FFD-34933B53BE42}
-		{3A8FD494-B962-4234-9377-E22FF13185F9} = {E939CC2E-1D2C-412F-97BB-44FA494F1E60}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2445E1-AA20-4A57-921A-0FE35C8652B5}
 	EndGlobalSection
 EndGlobal
