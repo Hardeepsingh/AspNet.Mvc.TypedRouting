@@ -163,7 +163,7 @@
             return controller.CreatedAtAction(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues,
+                expressionRouteValues.RouteValues,
                 value);
         }
 
@@ -190,7 +190,7 @@
             return controller.CreatedAtAction(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues,
+                expressionRouteValues.RouteValues,
                 value);
         }
 
@@ -256,7 +256,7 @@
             object value)
             where TController : Controller
         {
-            var expressionRouteValues = GetExpresionRouteHelper(controller).Resolve(action, routeValues, addControllerAndActionToRouteValues : true);
+            var expressionRouteValues = GetExpresionRouteHelper(controller).Resolve(action, routeValues, addControllerAndActionToRouteValues: true);
             return controller.CreatedAtRoute(
                 routeName,
                 expressionRouteValues.RouteValues,
@@ -535,7 +535,7 @@
             return controller.RedirectToAction(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues);
+                expressionRouteValues.RouteValues);
         }
 
         /// <summary>
@@ -561,7 +561,7 @@
             return controller.RedirectToAction(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues);
+                expressionRouteValues.RouteValues);
         }
 
         /// <summary>
@@ -713,7 +713,7 @@
             return controller.RedirectToActionPermanent(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues);
+                expressionRouteValues.RouteValues);
         }
 
         /// <summary>
@@ -739,7 +739,7 @@
             return controller.RedirectToActionPermanent(
                 expressionRouteValues.Action,
                 expressionRouteValues.Controller,
-                routeValues);
+                expressionRouteValues.RouteValues);
         }
 
         /// <summary>

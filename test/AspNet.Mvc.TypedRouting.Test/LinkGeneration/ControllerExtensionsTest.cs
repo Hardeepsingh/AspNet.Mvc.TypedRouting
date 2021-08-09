@@ -2,11 +2,64 @@
 {
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
+    using System;
     using Xunit;
 
     [Collection("TypedRoutingTests")]
     public class ControllerExtensionsTest
     {
+        [Fact]
+        public void CreatedAtAction_WithParams()
+        {
+            // Arrange
+            var controller = new MyTestController();
+
+            // Act
+            var result = controller.CreatedAtActionWithParams(5) as CreatedAtActionResult;
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Null(result.ControllerName);
+            Assert.Equal("CreatedAtActionWithParams", result.ActionName);
+            Assert.Equal(5, result.RouteValues["value"]);
+            Assert.Null(result.Value);
+        }
+
+        [Fact]
+        public void CreatedAtAction_OtherController_WithParams()
+        {
+            // Arrange
+            var controller = new MyTestController();
+
+            // Act
+            var result = controller.CreatedAtActionOtherControllerWithParams(5) as CreatedAtActionResult;
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("Other", result.ControllerName);
+            Assert.Equal("ActionWithParam", result.ActionName);
+            Assert.Equal(5, result.RouteValues["value"]);
+            Assert.Null(result.Value);
+        }
+
+        [Fact]
+        public void CreatedAtAction_OtherController_WithParamsAndRouteValues()
+        {
+            // Arrange
+            var controller = new MyTestController();
+
+            // Act
+            var result = controller.CreatedAtActionOtherControllerWithParamsAndRouteValues(5) as CreatedAtActionResult;
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("Other", result.ControllerName);
+            Assert.Equal("ActionWithParam", result.ActionName);
+            Assert.Equal(5, result.RouteValues["value"]);
+            Assert.Equal(1, result.RouteValues["id"]);
+            Assert.Equal("test", result.Value);
+        }
+
         [Fact]
         public void CreatedAtAction_SameController_ResolvesCorrectly()
         {
@@ -55,7 +108,7 @@
             Assert.NotNull(result);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
-            Assert.Null(result.RouteValues);
+            Assert.Empty(result.RouteValues);
             Assert.Equal("test", result.Value);
         }
 
@@ -197,7 +250,7 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Null(result.RouteValues);
+            Assert.Empty(result.RouteValues);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
             Assert.False( result.Permanent);
@@ -267,7 +320,7 @@
 
             // Assert
             Assert.NotNull(result);
-            Assert.Null(result.RouteValues);
+            Assert.Empty(result.RouteValues);
             Assert.Equal("Other", result.ControllerName);
             Assert.Equal("Action", result.ActionName);
             Assert.True(result.Permanent);
@@ -456,6 +509,21 @@
 
     public class MyTestController : BaseController
     {
+        public IActionResult CreatedAtActionWithParams(int value)
+        {
+            return this.CreatedAtAction(c => c.CreatedAtActionWithParams(value), null);
+        }
+
+        public IActionResult CreatedAtActionOtherControllerWithParams(int value)
+        {
+            return this.CreatedAtAction<OtherController>(c => c.ActionWithParam(value), null);
+        }
+
+        public IActionResult CreatedAtActionOtherControllerWithParamsAndRouteValues(int value)
+        {
+            return this.CreatedAtAction<OtherController>(c => c.ActionWithParam(value), new { id = 1 }, "test");
+        }
+
         public IActionResult CreatedAtActionSameController()
         {
             return this.CreatedAtAction(c => c.CreatedAtActionSameController(), "test");
@@ -582,6 +650,11 @@
         public IActionResult Action()
         {
             return null;
+        }
+
+        public IActionResult ActionWithParam(int value)
+        {
+            return this.CreatedAtAction(c => c.ActionWithParam(value), value);
         }
     }
 }
