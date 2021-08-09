@@ -2,8 +2,9 @@
 {
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
-    using System;
+    using Microsoft.AspNetCore.Mvc.Routing;
     using Xunit;
+    using System;
 
     [Collection("TypedRoutingTests")]
     public class ControllerExtensionsTest
@@ -128,6 +129,20 @@
             Assert.Single( result.RouteValues);
             Assert.Equal(1, result.RouteValues["id"]);
             Assert.Equal("test", result.Value);
+        }
+
+        //Custom
+        [Fact]
+        public void CreatedToGenerateRouteUsingCustomSiteAction_ResolvesCorrectly()
+        {
+            // Arrange
+            var controller = new MyTestController();
+
+            // Act
+            var result = controller.CreatedToGenerateRouteUsingCustomSiteAction_ResolvesCorrectly() as string;
+
+            // Assert
+            Assert.NotNull(result);
         }
 
         [Fact]
@@ -509,6 +524,12 @@
 
     public class MyTestController : BaseController
     {
+        private IUrlHelper _url;
+        public MyTestController()
+        {
+            _url = new UrlHelper(ControllerContext);
+		}
+
         public IActionResult CreatedAtActionWithParams(int value)
         {
             return this.CreatedAtAction(c => c.CreatedAtActionWithParams(value), null);
@@ -542,6 +563,17 @@
         public IActionResult CreatedAtActionOtherControllerRouteValues()
         {
             return this.CreatedAtAction<OtherController>(c => c.Action(), new { id = 1 }, "test");
+        }
+
+        public string CreatedToGenerateRouteUsingCustomSiteAction_ResolvesCorrectly()
+        {
+            var route= _url.SiteAction<MyTestController>(x => x.AddDataDate(1, true, new DateTime(), "/Sites/Test/SuperProjectView/AdminShow/2?"), new TestExtensionMethods.Site());
+            return route;
+        }
+
+        public void AddDataDate(int id, bool v, DateTime date, string thisUrl)
+        {
+            throw new NotImplementedException();
         }
 
         public IActionResult CreatedAtRouteSameController()

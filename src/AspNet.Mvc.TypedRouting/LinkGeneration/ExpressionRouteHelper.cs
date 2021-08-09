@@ -237,12 +237,20 @@
                     // Expression of type c => c.Action(id)
                     // Value can be extracted without compiling.
                     var memberAccessExpr = (MemberExpression)expressionArgument;
-                    var constantExpression = (ConstantExpression)memberAccessExpr.Expression;
-                    if (constantExpression != null)
+                    if (memberAccessExpr.Expression is ConstantExpression constantExpression)
                     {
                         var innerMemberName = memberAccessExpr.Member.Name;
                         var compiledLambdaScopeField = constantExpression.Value.GetType().GetField(innerMemberName);
                         value = compiledLambdaScopeField.GetValue(constantExpression.Value);
+                    }
+                    else if (expressionArgument.Type == typeof(string))
+                    {
+                        var convertExpression = Expression.Convert(expressionArgument, typeof(string));
+                        value = Expression.Lambda<Func<object>>(convertExpression).Compile().Invoke();
+                    }
+                    else
+                    {
+                        throw new NotImplementedException($"Unable to access expression of type {memberAccessExpr.Expression.GetType()}");
                     }
                 }
                 else
